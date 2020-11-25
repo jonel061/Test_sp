@@ -26,7 +26,7 @@ public class Produse implements Element {
     }
 
     public void print() {
-        System.out.println(this.cantite + "X" + this.nume + "x" + this.pret);
+        System.out.println(this.cantite + "X" + this.nume + "x" + this.pret +" lei");
         for (Element element : content) {
             element.print();
         }
